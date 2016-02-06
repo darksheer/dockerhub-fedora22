@@ -1,5 +1,4 @@
 FROM fedora:22
 MAINTAINER Darksheer
 
-RUN     dnf clean all
-RUN     dnf -y update
+RUN     dnf clean all && dnf update -y 
